@@ -1,0 +1,4 @@
+HBX,Hubballi,0
+IXG,Belagavi,74
+PNQ,Pune,431
+COK,Cochin,798

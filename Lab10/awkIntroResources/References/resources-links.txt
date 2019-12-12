@@ -1,0 +1,7 @@
+1) gnu awk manual 
+https://www.gnu.org/software/gawk/manual/gawk.html 
+ 
+2) Book : sed and awk -2nd edition. 
+   available here
+   https://docstore.mik.ua/orelly/unix3/sedawk/index.htm
+ 
