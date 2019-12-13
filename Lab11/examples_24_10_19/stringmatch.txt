@@ -1,0 +1,5 @@
+Hello world
+Mangoes are tasty
+Man and Woman are created equal
+Man-pages in linux are a useful source of information
+Good bye
