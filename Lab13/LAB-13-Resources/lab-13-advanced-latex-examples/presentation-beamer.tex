@@ -1,0 +1,64 @@
+\documentclass{beamer}
+\title{A presentation using LaTex}
+\author[]{Author: xyz} 
+\institute[]{IIT Dharwad, India}
+\date
+ 
+\begin{document}
+\frame{\titlepage} 
+ 
+\frame{
+\frametitle{Document class beamer}
+$\backslash$documentclass\{beamer\}\\
+$\backslash$title\{A presentation using LaTex\}\\
+$\backslash$author[Author : xyx]\{Author: xyz\} \\
+$\backslash$institute[IIT Dharwad]\{IIT Dharwad\}\\
+$\backslash$date\\
+\vspace*{1cm}
+$\backslash$begin\{document\}\\
+\hspace*{1cm}$\backslash$frame\{$\backslash$titlepage\} \\
+\hspace*{1cm}$\backslash$frame\{\\
+\hspace*{1cm}$\backslash$frametitle\{some title\}\\
+ \hspace*{1cm}\} \\
+$\backslash$end{document}
+}
+ 
+\frame{
+\frametitle{Animation slide : $1$}
+One can use \textcolor{red}{$\backslash$pause} 
+command to show the remaining contents later.\\
+\vspace*{1cm}
+\pause 
+{\large \textcolor{red}{like this.}}
+}
+ 
+\frame{
+\frametitle{Animation slide : $2$}
+ 
+\begin{itemize}  
+\item  \only<1->{This line remains till end of this whole slide}
+\item  \only<2-3>{This remains only on second and third slide}
+ 
+\item  \only<3-> {This will remain till the end from third slide onwards 
+} 
+\item  \only<4-5>{ The fourth }
+\item  \only<5>{
+Use command
+\begin{center} 
+\textcolor{red}{
+$\backslash$only$<x$-$y>$}
+\end{center}} 
+\end{itemize}  
+}
+ 
+ 
+\frame{
+\frametitle{Where to find an example presentation?}
+Source of this presentation in examples. 
+} 
+ 
+ 
+\end{document} 
+ 
+ 
+

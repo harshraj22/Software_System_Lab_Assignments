@@ -1,0 +1,21 @@
+
+
+\documentclass{article}
+\usepackage{tikz}
+\usetikzlibrary{arrows,shapes}
+ 
+\begin{document}
+ 
+\begin{tikzpicture}
+\foreach \i in {1,...,4}
+{
+   \path (\i,0) coordinate (X\i);
+   \fill (X\i) circle (1pt);
+   %\fill (X\i) circle (.31cm);
+}
+ 
+ 
+\end{tikzpicture}
+
+\end{document}
+
