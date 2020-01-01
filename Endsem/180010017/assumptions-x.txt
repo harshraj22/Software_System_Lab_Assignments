@@ -1,0 +1,3 @@
+In ques 2 it is assumed that marks aren't deducted as long as asked task is being done. Doesn't matter if programm gives error.
+
+Assumed that marks are not deducted if new random files are formed
